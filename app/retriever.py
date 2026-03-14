@@ -10,4 +10,4 @@ def get_retriever():
         collection_name="documents",
     )
 
-    return vectorstore.as_retriever(search_kwargs={"k": 4})
+    return vectorstore.as_retriever(search_kwargs={"k": 2})
